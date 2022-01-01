@@ -2,21 +2,21 @@
   "object": {
     "pins": [
       {
-        "package": "Realm",
-        "repositoryURL": "https://github.com/realm/realm-cocoa",
-        "state": {
-          "branch": null,
-          "revision": "11d7853b750f367525b174331e72f5431e15dfcc",
-          "version": "4.1.1"
-        }
-      },
-      {
-        "package": "RealmCore",
+        "package": "RealmDatabase",
         "repositoryURL": "https://github.com/realm/realm-core",
         "state": {
           "branch": null,
-          "revision": "d2f6573960c84ebea3e0236047b3d976f95a5d7a",
-          "version": "5.23.6"
+          "revision": "018adb3469c2882904febca251778129ef4a9b70",
+          "version": "10.7.2"
+        }
+      },
+      {
+        "package": "Realm",
+        "repositoryURL": "https://github.com/realm/realm-swift",
+        "state": {
+          "branch": null,
+          "revision": "d6f68b8f613dca3b13430da5e0be5d27b500f486",
+          "version": "10.7.7"
         }
       }
     ]
