@@ -48,7 +48,7 @@ public final class SyncEngine {
                 self.databaseManager.startObservingRemoteChanges()
                 self.databaseManager.startObservingTermination()
                 self.databaseManager.createDatabaseSubscriptionIfHaveNot()
-            case .noAccount, .restricted:
+            case .noAccount, .restricted, .temporarilyUnavailable:
                 guard self.databaseManager is PublicDatabaseManager else { break }
                 self.databaseManager.fetchChangesInDatabase(nil)
                 self.databaseManager.resumeLongLivedOperationIfPossible()
